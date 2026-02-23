@@ -1,0 +1,15 @@
+[project]
+name = "sqlite-mcp-langchain-gemini"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.2.0",
+    "langchain==1.0.5",
+    "langchain-google-genai==3.0.1",
+    "langchain-mcp-adapters==0.1.12",
+    "langgraph==1.0.2",
+    "mcp==1.21.0",
+    "python-dotenv>=1.2.1",
+]
